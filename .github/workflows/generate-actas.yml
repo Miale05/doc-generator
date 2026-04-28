@@ -10,7 +10,7 @@ on:
       fila_fin:
         description: "Fila de Fin (ej: 4), si no se coloca se procesaran todas las filas hasta la última"
         required: false
-        default: "4"
+        default: "2"
 
 jobs:
   generate:
