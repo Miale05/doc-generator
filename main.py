@@ -83,6 +83,7 @@ def main():
         sheet_acta = wb_acta.active
 
         # Configurar el tamaño de página a A2 (Código 66)
+        # Configurar el tamaño de página a A3 (Código 8)
         sheet_acta.page_setup.paperSize = 8
 
         # Solución al error AttributeError: configuramos el ajuste directamente en la hoja
